@@ -1,11 +1,11 @@
 {
   "scripts": {
-    "start": "node api.js && electrobun run",
-    "dev": "node api.js && electrobun dev",
+    "start": "electrobun run",
+    "dev": "electrobun dev",
     "check:zig-mirrors": "bun ./scripts/check-zig-test-mirrors.ts",
     "build:canary": "cd ../package && bun build:release && cd ../kitchen && electrobun build --env=canary",
     "build:stable": "cd ../package && bun build:release && cd ../kitchen && electrobun build --env=stable",
-    "start:canary": "node api.js && electrobun dev --env=canary"
+    "start:canary": "electrobun dev --env=canary"
   },
   "dependencies": {
     "electrobun": "file:../package"

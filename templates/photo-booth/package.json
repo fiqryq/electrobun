@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A photo booth app demonstrating getUserMedia with Electrobun",
   "scripts": {
-    "start": "node api.js && electrobun dev",
-    "dev": "node api.js && electrobun dev --watch",
+    "start": "electrobun dev",
+    "dev": "electrobun dev --watch",
     "build:canary": "electrobun build --env=canary"
   },
   "dependencies": {

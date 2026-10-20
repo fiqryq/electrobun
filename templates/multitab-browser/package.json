@@ -4,8 +4,8 @@
   "description": "A multi-tab browser demo for Electrobun",
   "type": "module",
   "scripts": {
-    "start": "node api.js && electrobun dev",
-    "dev": "node api.js && electrobun dev --watch"
+    "start": "electrobun dev",
+    "dev": "electrobun dev --watch"
   },
   "dependencies": {
     "electrobun": "file:../../package"

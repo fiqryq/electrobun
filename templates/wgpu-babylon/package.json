@@ -4,8 +4,8 @@
   "type": "module",
   "description": "A Babylon.js WebGPU platformer starter",
   "scripts": {
-    "start": "node api.js && electrobun dev",
-    "dev": "node api.js && electrobun dev --watch",
+    "start": "electrobun dev",
+    "dev": "electrobun dev --watch",
     "build:canary": "electrobun build --env=canary"
   },
   "dependencies": {

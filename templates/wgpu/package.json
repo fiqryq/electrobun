@@ -4,8 +4,8 @@
   "type": "module",
   "description": "A minimal WebGPU shader demo",
   "scripts": {
-    "start": "node api.js && electrobun dev",
-    "dev": "node api.js && electrobun dev --watch",
+    "start": "electrobun dev",
+    "dev": "electrobun dev --watch",
     "build:canary": "electrobun build --env=canary"
   },
   "dependencies": {
